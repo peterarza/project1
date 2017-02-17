@@ -1,0 +1,81 @@
+html	{
+	background-color: #8B9DC3;
+	font-family: helvetica;
+	font-size: 1.2em;
+	color: #65737E;
+}
+
+header	{
+	text-align: center;
+}
+
+#begin	{
+	font-size: 24px;
+}
+
+#container	{
+	width: 950px;
+	margin: 0 auto;
+	padding: 0 auto;
+	font-family: helvetica;
+	background-color: #FFF4E6;
+}
+
+#myQuiz	{
+	display: none;
+}
+
+li	{
+	font-weight: bold;	
+}
+
+ol	{
+	color: #65737E;
+}
+
+#button	{
+	color: red;
+	font-size: 36px;
+	text-align: center;
+	background-color: yellow;
+}
+
+h2 	{
+	text-align: center;
+}
+
+.fail {
+	color: red;
+}
+
+.pass {
+	color: green;
+}
+
+#resetQuiz	{
+	float: right;
+	font-size: 48px;
+	font-weight: medium;
+}
+
+#tryAgain	{
+	float: right;
+	font-size: 48px;
+	font-weight: medium;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

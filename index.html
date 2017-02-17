@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Project 1 - Javascript Quiz</title>
+
+<!-- Start of jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script>
+	$(document).ready(function()	{
+		$("#begin").click(function()	{
+			$("#begin").fadeOut();
+			$("#myQuiz").slideDown("slow");
+		});
+	});
+
+</script><!-- End of jQuery -->
+
+</head>
+
+<body>
+
+	<div id="container">
+
+		<header>
+			<h1>My Javascript Quiz</h1>
+			<p>This quiz consists of 10 multiple choice questions. Each question is worth 10 points.</p> <p> You need a 70 to pass.</p><p>Good Luck!</p>
+		
+			<button id="begin">Begin</button><br><br>
+
+		</header>
+
+
+		
+
+
+	<form id="myQuiz" name="myQuiz">
+		<ol>
+				<li>Javascript and PHP are the same thing.</li>
+					<input type="radio" name="question1" value="True">True
+					<input type="radio" name="question1" value="False">False
+					<input type="radio" name="question1" value="idk">I don't know<br><br>
+
+				<li>Where does PHP code run?</li>
+					<input type="radio" name="question2" value="Browser">Browser
+					<input type="radio" name="question2" value="Server">Server
+					<input type="radio" name="question2" value="Boston">Boston<br><br>
+
+				<li>Front end development consists of HTML, CSS and Javascript.</li>
+					<input type="radio" name="question3" value="True">True
+					<input type="radio" name="question3" value="False">False
+					<input type="radio" name="question3" value="idk">I don't know<br><br>
+
+				<li>MAMP is needed to run what kind of file?</li>
+					<input type="radio" name="question4" value="PHP">PHP
+					<input type="radio" name="question4" value="HTML">HTML
+					<input type="radio" name="question4" value="Javascript">Javascript<br><br>
+
+				<li>PHP only works on Mac OS.</li>
+					<input type="radio" name="question5" value="True">True
+					<input type="radio" name="question5" value="False">False
+					<input type="radio" name="question5" value="idk">I don't know<br><br>
+
+				<li>Who created the PHP language?</li>
+					<input type="radio" name="question6" value="Rasmus Lerdof">Rasmus Lerdof
+					<input type="radio" name="question6" value="Bill Gates">Bill Gates
+					<input type="radio" name="question6" value="Albert Einstein">Albert Einstein<br><br>
+
+				<li>What does DOM stand for?</li>
+					<input type="radio" name="question7" value="Dynamic Only Memory">Dynamic Only Memory
+					<input type="radio" name="question7" value="Document Object Model">Document Object Model
+					<input type="radio" name="question7" value="Digital Order Module">Digital Order Module<br><br>
+
+				<li>What is the name of the version control software we use in class?</li>
+					<input type="radio" name="question8" value="SVN">SVN
+					<input type="radio" name="question8" value="Git">Git
+					<input type="radio" name="question8" value="CVS">CVS<br><br>
+
+				<li>What building is this class in?</li>
+					<input type="radio" name="question9" value="5">5
+					<input type="radio" name="question9" value="1">1
+					<input type="radio" name="question9" value="2">2<br><br>
+
+				<li>Digital Media is primarily taught at which campus?</li>
+					<input type="radio" name="question10" value="West">West
+					<input type="radio" name="question10" value="East">East
+					<input type="radio" name="question10" value="Winter Park">Winter Park<br><br>
+		</ol>
+
+		<input type="button" id="button" value="Submit" onclick="results()"><br><br>
+
+
+	</form><!-- End of myQuiz form -->
+
+
+
+	</div> <!-- End of Container -->
+
+<script src="js/quiz.js"></script>
+
+</body>
+</html>
